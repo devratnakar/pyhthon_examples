@@ -1,0 +1,7 @@
+l10,l11,b10,b11,l20,l21,b20,b21=map(int,input().split())
+a=max(l10,l20)
+b=max(l11,l21)
+c=min(b10,b20)
+d=min(b11,b21)
+area=(abs(d-a)*abs(b-c))
+print(area)
